@@ -1,0 +1,30 @@
+@import './breakpoints.scss';
+
+
+
+.type__HeadingM {
+    font-family: 'InstrumentSans_Bold';
+    font-size: 32px;
+    line-height: 150%;
+}
+
+.type__HeadingS {
+    font-family: 'InstrumentSans_Bold';
+    font-size: 16px;
+    line-height: 150%;
+}
+
+
+.type__BodyM {
+
+    font-family: 'InstrumentSans';
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.type__BodyS {
+
+    font-family: 'InstrumentSans';
+    font-size: 12px;
+    line-height: 150%;
+}

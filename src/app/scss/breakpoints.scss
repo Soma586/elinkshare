@@ -1,0 +1,38 @@
+@mixin breakpoint-xs {
+
+    @media only screen and (max-width: 575px ){
+        @content;
+    }
+}
+
+@mixin breakpoint-sm {
+
+
+    @media(min-width: 576px){
+        @content;
+    }
+}
+
+
+@mixin breakpoint-md {
+
+
+    @media (min-width: 768px){
+        @content;
+    }
+}
+
+
+@mixin breakpoint-lg {
+    @media (min-width: 992px){
+        @content;
+    }
+}
+
+@mixin breakpoint-xl {
+
+
+    @media (min-width: 1200px){
+        @content;
+    }
+}

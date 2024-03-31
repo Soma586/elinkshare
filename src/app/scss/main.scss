@@ -1,0 +1,46 @@
+@import '../../../node_modules/bootstrap/scss/_functions';
+@import '../../../node_modules/bootstrap/scss/_variables';
+
+
+$darkpurple: #633CFF;
+$purple: #BEADFF;
+$lightpurple: #EFEBFF;
+$white: #FFFFFF;
+//$black: #000000;
+$black: #333333;
+$darkgrey: #737373;
+$grey: #D9D9D9;
+$lightgrey: #FAFAFA;
+$red: #FF3939;
+$lightblue: #43B7E9;
+$blue: #2D68FF;
+$navy: #2442AC;
+$pink: #EE3FC8;
+$winegrape: #8A1A50;
+$redorange: #EB4925;
+$orange: #EC7100;
+$afterworkblue: #302267;
+
+
+$custom-theme-colors: (
+    
+"darkpurple": $darkpurple,
+"purple": $purple,
+'lightpurple' : $lightpurple, 
+"dark": $dark ,
+"darkgrey" : $darkgrey,
+"grey" : $grey,
+"lightgrey": $lightgrey,
+"red" : $red,
+"white": $white,
+"black" : $black,
+"lightblue": $lightblue,
+"blue": $blue
+
+
+
+);
+
+$theme-colors: map-merge($custom-theme-colors, $theme-colors);
+
+@import "node_modules/bootstrap/scss/bootstrap";

@@ -1,0 +1,39 @@
+@import '../../scss/main.scss';
+
+
+
+
+
+.navContainer {
+
+
+    border-radius: 12px;
+    padding: 16px 16px 16px 24px;
+}
+.previewButton {
+
+    width: 114px;
+}
+
+
+.tabButton {
+
+    border: none;
+    border-radius: 8px;
+    padding: 11px 27px;
+}
+
+.tabActive {
+
+
+    color: $darkpurple;
+    background-color: $lightpurple;
+
+
+    svg path {
+        fill: $darkpurple;
+    }
+
+}
+
+
